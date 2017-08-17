@@ -96,6 +96,22 @@ Exaples:
 
   ![下ケース 設定プレビュー](./images/makerbot-export-config_bottom_preview.png)
 
+## Appendix: Examples of printing labels
+
+文字塗装の例:
+
+1. マスキングシートの裏に、文字列を印刷する。シートからマスキングを切り抜く。(データは前述)
+
+    ![](./images/examples-ver1_0_0-label00.jpg)
+
+1. 塗装済みのジャバボタンに貼る。スプレーされてもいいいように、マスキングシートの周りをマスキングする。(土台の利用は塗装を簡単にするため)
+
+    ![](./images/examples-ver1_0_0-label02.jpg)
+
+1. 二度ほど白スプレーを吹き、乾いたのち仕上げ材を吹き、乾いたら出来上がり
+
+    ![](./images/examples-ver1_0_0-label03.jpg)
+
 ## License
 
 [Unlicense](./LICENSE)
