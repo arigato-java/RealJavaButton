@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>.\main.sch</source>
+    <date>2017/08/20 0:24:22</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>javabutton</title>
+        <company>https://github.com/arigato-java/RealJavaButton/</company>
+        <rev>v1.0.0</rev>
+        <date>2017-08-20</date>
+        <source>main.sch</source>
+        <comment number="1" value="Project RealJavaButton"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>FN-M16P</value>
+      <libsource lib="fn-m16p" part="FN-M16P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59984D33</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery 4.5V</value>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59984E0D</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker</value>
+      <libsource lib="device" part="Speaker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59984E68</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push_Left</value>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5998509A</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push_Right</value>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>599850F3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery">
+      <description>Battery (multiple cells)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fn-m16p" part="FN-M16P">
+      <description>Regulator +5V CMS</description>
+      <docs>regulator/lm78lxx.pdf</docs>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">FN-M16P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="RX" type="input"/>
+        <pin num="3" name="TX" type="output"/>
+        <pin num="4" name="DAC_R" type="output"/>
+        <pin num="5" name="DAC_L" type="output"/>
+        <pin num="6" name="SPK+" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="SPK-" type="output"/>
+        <pin num="9" name="I/O1" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="I/O2" type="input"/>
+        <pin num="12" name="ADKEY1" type="input"/>
+        <pin num="13" name="ADKEY2" type="input"/>
+        <pin num="14" name="USB+" type="BiDi"/>
+        <pin num="15" name="USB-" type="BiDi"/>
+        <pin num="16" name="BUSY" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Speaker">
+      <description>speaker </description>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+    <library logical="fn-m16p">
+      <uri>.\fn-m16p.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(LS1-Pad2)">
+      <node ref="M1" pin="6"/>
+      <node ref="LS1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(LS1-Pad1)">
+      <node ref="M1" pin="8"/>
+      <node ref="LS1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(M1-Pad13)">
+      <node ref="SW1" pin="1"/>
+      <node ref="M1" pin="13"/>
+    </net>
+    <net code="4" name="Net-(M1-Pad12)">
+      <node ref="M1" pin="12"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(M1-Pad10)">
+      <node ref="M1" pin="10"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(M1-Pad16)">
+      <node ref="M1" pin="16"/>
+    </net>
+    <net code="7" name="Net-(M1-Pad15)">
+      <node ref="M1" pin="15"/>
+    </net>
+    <net code="8" name="Net-(M1-Pad14)">
+      <node ref="M1" pin="14"/>
+    </net>
+    <net code="9" name="Net-(M1-Pad11)">
+      <node ref="M1" pin="11"/>
+    </net>
+    <net code="10" name="Net-(M1-Pad5)">
+      <node ref="M1" pin="5"/>
+    </net>
+    <net code="11" name="Net-(M1-Pad4)">
+      <node ref="M1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(M1-Pad3)">
+      <node ref="M1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(M1-Pad2)">
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(M1-Pad9)">
+      <node ref="M1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2"/>
+      <node ref="M1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="M1" pin="1"/>
+    </net>
+  </nets>
+</export>

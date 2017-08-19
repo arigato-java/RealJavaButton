@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FN-M16P
+D Regulator +5V CMS
+K POWER REGUL
+F regulator/lm78lxx.pdf
+$ENDCMP
+#
+#End Doc Library

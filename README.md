@@ -59,7 +59,9 @@ TODO: 内部を最新のもので撮影
 
 ## Schematic
 
-* TODO: 最初は、落書きで
+![ver 1.0.0 回路図](./images/schematic-ver1_0_0.png)
+
+You can open `schematic/main.pro` using `KiCad` v4.x.x , if you want to see/edit those schematics.
 
 ## Confirmed environments(確認済み環境)
 
