@@ -10,6 +10,9 @@ JavaButton on the real world
 
 ![ver 1.0.0 裏](./images/examples-ver1_0_0-02.jpg)
 
+![ver 0.9.0 内部](./images/example-ver0_9_0-04.jpg)
+
+TODO: 内部を最新のもので撮影
 
 ## Resources
 
@@ -31,9 +34,28 @@ JavaButton on the real world
 
 ## List of materials
 
-* TODO: 確認済み環境とまとめる
-* TODO: 電子部品をリストアップ
-  * TODO: 入手先へリンク
+部品リスト
+
+* [FN-M16P 互換 Audio Module](https://www.amazon.co.jp/dp/B01D1D0E7Q/) x1
+  ( [datasheet](http://www.trainelectronics.com/Arduino/MP3Sound/TalkingTemperature/FN-M16P%20Embedded%20MP3%20Audio%20Module%20Datasheet.pdf) )
+
+* [OMRON D2FC互換マイクロスイッチ](https://www.amazon.co.jp/dp/B00YM2Q178/) x2
+* スイッチ取り付け用基盤(71 x 8.5mm 程度に加工) x1
+* 8ohm 0.25w スピーカー (⌀27mm)  x1
+* 適当な耐熱電子ワイヤー(銅線) x 10本程度
+* 電池ボックス用金具 それぞれ幅 11mm 以内:
+  * プラス側 金具 x1
+  * マイナス側 金具 x1
+  * プラスマイナス 金具 x1
+* 単5電池 1.5V  x3
+
+参考情報:
+
+* 参考: Audio Module に関して、リンク先での購入は、2つのうち1つは動かない覚悟で。
+* 参考: スピーカー取り付け用基板は、 ユニバーサル基盤から切り出した。
+* 参考: スピーカーは、100均のおもちゃのピアノから流用。
+* 参考: 電池ボックス用金具らは、100均のおもちゃから流用。
+* 参考: 単5電池のプラマイは間違えやすく、ショートしやすいので注意。(要改善)
 
 ## Schematic
 
