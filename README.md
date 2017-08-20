@@ -2,6 +2,8 @@
 
 JavaButton on the real world
 
+* 対象年齢: 全年齢 (CERO-A)
+
 ## 作例 ver 1.0.0
 
 ![ver 1.0.0 前斜め](./images/examples-ver1_0_0-00.jpg)
