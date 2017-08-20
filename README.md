@@ -2,7 +2,7 @@
 
 JavaButton on the real world
 
-* 対象年齢: 全年齢 (CERO-A)
+* 対象年齢: 全年齢 (審査申請準備中)
 
 ## 作例 ver 1.0.0
 
