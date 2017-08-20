@@ -32,7 +32,7 @@ TODO: 内部を最新のもので撮影
     [Illustrator形式](./images/javabutton-string-only.ai), 
     ([outline化済](./images/javabutton-string-only(outline).ai)))
 
-## List of materials
+## Bill of materials
 
 部品リスト
 
