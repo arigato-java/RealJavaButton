@@ -2,6 +2,8 @@
 
 JavaButton on the real world
 
+* 対象年齢: 全年齢 (審査申請準備中)
+
 ## 作例 ver 1.0.0
 
 ![ver 1.0.0 前斜め](./images/examples-ver1_0_0-00.jpg)
@@ -32,7 +34,7 @@ TODO: 内部を最新のもので撮影
     [Illustrator形式](./images/javabutton-string-only.ai), 
     ([outline化済](./images/javabutton-string-only(outline).ai)))
 
-## List of materials
+## Bill of materials
 
 部品リスト
 
