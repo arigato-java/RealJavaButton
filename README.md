@@ -19,9 +19,9 @@ TODO: 内部を最新のもので撮影
 ## Resources
 
 * For 3D printing:
-  * [Top Cover Model](http://a360.co/2t33CEH)
+  * Top Cover Model([STL](./models/case-lide01.stl), [.f3d(Fusion360)](./models/case-lide01.f3d), [online](http://a360.co/2t33CEH))
     ![](./images/model_top-cover.png)
-  * [Bottom Model](http://a360.co/2umziJ7)
+  * Bottom Model([STL](./models/case-bottom03.stl), [.f3d(Fusion360)](./models/case-bottom03.f3d), [online](http://a360.co/2umziJ7))
     ![](./images/model_bottom.png)
   * Masking Sheet 印刷用:
       * [PDF](./images/javabutton_label00_170x225mm.pdf)
