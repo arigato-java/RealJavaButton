@@ -19,7 +19,7 @@ TODO: 内部を最新のもので撮影
 ## Resources
 
 * For 3D printing:
-  * Top Cover Model([STL](./models/case-lide01.stl), [.f3d(Fusion360)](./models/case-lide01.f3d), [online](http://a360.co/2t33CEH))
+  * Top Cover Model([STL](./models/case-lid01.stl), [.f3d(Fusion360)](./models/case-lid01.f3d), [online](http://a360.co/2t33CEH))
     ![](./images/model_top-cover.png)
   * Bottom Model([STL](./models/case-bottom03.stl), [.f3d(Fusion360)](./models/case-bottom03.f3d), [online](http://a360.co/2umziJ7))
     ![](./images/model_bottom.png)
