@@ -31,9 +31,9 @@ Inside(ver 0.9):
 
     ![](./images/model_top-cover.png)
 
-    * Label ([STL](./models/case-lid02-label.stl), [.f3d(Fusion360)](./models/case-lid02-label.f3d), [online](http://a360.co/2zqsTeh))
+  * Label for top cover([STL](./models/case-lid02-label.stl), [.f3d(Fusion360)](./models/case-lid02-label.f3d), [online](http://a360.co/2zqsTeh))
 
-      ![](./images/model_top-label.png)
+    ![](./images/model_top-label.png)
 
   * Bottom Model([STL](./models/case-bottom04.stl), [.f3d(Fusion360)](./models/case-bottom04.f3d), [online](http://a360.co/2umziJ7))
     ![](./images/model_bottom.png)
