@@ -1,38 +1,42 @@
-# RealJavaButton
+# RealJavaButton v2
 
-JavaButton on the real world
+JavaButton on the real world.
+
+The goal of v2 is which provides an easy way to make JavaButton.
 
 * 対象年齢: 全年齢 (審査申請準備中)
 
-## 作例 ver 1.0.0
+## 作例
 
-![ver 1.0.0 前斜め](./images/examples-ver1_0_0-00.jpg)
+Front(ver 2.0):
+![ver 2.0.0 front](./images/examples-ver2_0_0-00.jpg)
 
-![ver 1.0.0 後ろ](./images/examples-ver1_0_0-01.jpg)
+Back(ver 1.0):
+![ver 2.0.0 back](./images/examples-ver1_0_0-01.jpg)
 
-![ver 1.0.0 裏](./images/examples-ver1_0_0-02.jpg)
+Bottom(ver 1.0):
+![ver 1.0.0 bottom](./images/examples-ver1_0_0-02.jpg)
 
-![ver 0.9.0 内部](./images/example-ver0_9_0-04.jpg)
+Inside(ver 0.9):
+![ver 0.9.0 inside](./images/example-ver0_9_0-04.jpg)
 
-TODO: 内部を最新のもので撮影
+* TODO: 背面を最新のもので撮影
+* TODO: 底面を最新のもので撮影
+* TODO: 内部を最新のもので撮影
 
 ## Resources
 
 * For 3D printing:
-  * Top Cover Model([STL](./models/case-lid01.stl), [.f3d(Fusion360)](./models/case-lid01.f3d), [online](http://a360.co/2t33CEH))
+  * Top Cover Model([STL](./models/case-lid02.stl), [.f3d(Fusion360)](./models/case-lid02.f3d), [online](http://a360.co/2zoEj2t)
+
     ![](./images/model_top-cover.png)
-  * Bottom Model([STL](./models/case-bottom03.stl), [.f3d(Fusion360)](./models/case-bottom03.f3d), [online](http://a360.co/2umziJ7))
+
+    * Label ([STL](./models/case-lid02-label.stl), [.f3d(Fusion360)](./models/case-lid02-label.f3d), [online](http://a360.co/2zqsTeh))
+
+      ![](./images/model_top-label.png)
+
+  * Bottom Model([STL](./models/case-bottom04.stl), [.f3d(Fusion360)](./models/case-bottom04.f3d), [online](http://a360.co/2umziJ7))
     ![](./images/model_bottom.png)
-  * Masking Sheet 印刷用:
-      * [PDF](./images/javabutton_label00_170x225mm.pdf)
-      * [Illustrator形式(.ai)](./images/javabutton_label00_170x225mm.ai)
-      * [同 outline化済(.ai)](./images/javabutton_label00_170x225mm(outline).ai)
-
-    ![For Masking](./images/javabutton_label00_170x225mm_.png)
-
-    * (印刷には不要) 元データ: 
-    [Illustrator形式](./images/javabutton-string-only.ai), 
-    ([outline化済](./images/javabutton-string-only(outline).ai)))
 
 ## Bill of materials
 
@@ -80,33 +84,14 @@ You can open `schematic/main.pro` using `KiCad` v4.x.x , if you want to see/edit
 
       印刷中に台から離れないようにするために利用。
   * 出力設定(後述)
-* For painting:
-  * 塗料等
-    * サーフェサ: [ファインサーフェイサー(ピンク)](https://www.amazon.co.jp/dp/B00BBPUKDA)
-    * 赤: [Mr.カラー キャラクターレッド(半光沢)](https://www.amazon.co.jp/dp/B0049FD5CC)
-    * 白: [Mr.カラー スプレー S62 つや消しホワイト(つや消し)](https://www.amazon.co.jp/dp/B0049FBLFU)
-    * 仕上げ材: [GSIクレオス Mr.トップコート(つや消し)](https://www.amazon.co.jp/dp/B0000WS12C)
-  * パテ等
-    * [ポリパテ](https://www.amazon.co.jp/dp/B000BMX1BM): 積層をなだらかにするため
-    * [ラッカーパテ](https://www.amazon.co.jp/dp/B000R9N5VU): キズ埋めのため
-  * [マスキングシール](https://www.amazon.co.jp/dp/B004WBC07Y):
-
-      ジャバ文字の塗装用マスキングシート
-  * デザインナイフ, ヘラ, 等々
-  * ヤスリ: 320, 800, 1200(いずれも耐水性)
-    * (あれば楽) [タイラー](https://www.amazon.co.jp/dp/B0026O9H6G)
-      * 元のを剥がし、必要なヤスリを貼って使っている
-    * 粉塵が出にくく、目詰まりしにくいため、水研ぎが楽
-  * (あれば) 塗装ブース
 * Software
   * CAD/CAM: **Autodesk Fusion360**
-
 
 ## Configurations to export from slicer (MakerWare)
 
 Exaples:
 
-* 上ブタ:
+* Top cover:
 
   ![上ブタ 設定](./images/makerbot-export-config_top-cover.png)
 
@@ -114,29 +99,21 @@ Exaples:
 
   ![上ブタ 設定プレビュー](./images/makerbot-export-config_top-cover_preview.png)
 
-* 下ケース:
+* Label for top cover:
+
+  ![上ブタ 設定](./images/makerbot-export-config_top-label.png)
+
+  Preview:
+
+  ![上ブタ 設定プレビュー](./images/makerbot-export-config_top-label_preview.png)
+
+* Bottom case: (v1.xと同型)
 
   ![下ケース 設定](./images/makerbot-export-config_bottom.png)
 
   Preview:
 
   ![下ケース 設定プレビュー](./images/makerbot-export-config_bottom_preview.png)
-
-## Appendix: Examples of printing labels
-
-文字塗装の例:
-
-1. マスキングシートの裏に、文字列を印刷する。シートからマスキングを切り抜く。(データは前述)
-
-    ![](./images/examples-ver1_0_0-label00.jpg)
-
-1. 塗装済みのジャバボタンに貼る。スプレーされてもいいいように、マスキングシートの周りをマスキングする。(土台の利用は塗装を簡単にするため)
-
-    ![](./images/examples-ver1_0_0-label02.jpg)
-
-1. 二度ほど白スプレーを吹き、乾いたのち仕上げ材を吹き、乾いたら出来上がり
-
-    ![](./images/examples-ver1_0_0-label03.jpg)
 
 ## License
 
