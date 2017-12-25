@@ -2,27 +2,23 @@
 
 JavaButton on the real world.
 
-The goal of v2 is which provides an easy way to make JavaButton.
+**The goal of v2 is which provides an easy way to make RealJavaButton.**
 
 * 対象年齢: 全年齢 (審査申請準備中)
 
-## 作例
+## Examples
 
 Front(ver 2.0):
 ![ver 2.0.0 front](./images/examples-ver2_0_0-00.jpg)
 
-Back(ver 1.0):
-![ver 2.0.0 back](./images/examples-ver1_0_0-01.jpg)
+Back(ver 2.0):
+![ver 2.0.0 back](./images/examples-ver2_0_0-01.jpg)
 
 Bottom(ver 1.0):
 ![ver 1.0.0 bottom](./images/examples-ver1_0_0-02.jpg)
 
-Inside(ver 0.9):
-![ver 0.9.0 inside](./images/example-ver0_9_0-04.jpg)
-
-* TODO: 背面を最新のもので撮影
-* TODO: 底面を最新のもので撮影
-* TODO: 内部を最新のもので撮影
+Inside(ver 1.0):
+![ver 1.0.0 inside](./images/examples-ver1_0_0-04.jpg)
 
 ## Resources
 
