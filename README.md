@@ -38,18 +38,18 @@ Inside(ver 1.0):
 
 部品リスト
 
-* [FN-M16P 互換 Audio Module](https://www.amazon.co.jp/dp/B01D1D0E7Q/) x1
+* [FN-M16P Compatible Audio Module](https://www.amazon.co.jp/dp/B01D1D0E7Q/) x1
   ( [datasheet](http://www.trainelectronics.com/Arduino/MP3Sound/TalkingTemperature/FN-M16P%20Embedded%20MP3%20Audio%20Module%20Datasheet.pdf) )
 
-* [OMRON D2FC互換マイクロスイッチ](https://www.amazon.co.jp/dp/B00YM2Q178/) x2
-* スイッチ取り付け用基盤(71 x 8.5mm 程度に加工) x1
-* 8ohm 0.25w スピーカー (⌀27mm)  x1
-* 適当な耐熱電子ワイヤー(銅線) x 10本程度
-* 電池ボックス用金具 それぞれ幅 11mm 以内:
+* [OMRON D2FC Compatible Micro Switch](https://www.amazon.co.jp/dp/B00YM2Q178/) x2
+* Cut universal board for Micro switch, about 71 x 8.5mm.(スイッチ取り付け用基盤をカットして用意) x1
+* 8ohm 0.25w Speaker (⌀27mm)  x1
+* Some short wires(短い導線いくつか)
+* Battery contact(電池ボックス用金具) それぞれ幅 11mm 以内:
   * プラス側 金具 x1
   * マイナス側 金具 x1
   * プラスマイナス 金具 x1
-* 単5電池 1.5V  x3
+* Battery: 1.5V N Cell(R1, 単5電池, 12x30.2mm)  x3
 
 参考情報:
 
@@ -67,19 +67,15 @@ You can open `schematic/main.pro` using `KiCad` v4.x.x , if you want to see/edit
 
 ## Confirmed environments(確認済み環境)
 
-作例に使ったものです。
-
 * For 3D printing
-  * Printer: [QIDI技術3Dプリンター/ ABS / PLA 1.75mm デュアル押出/色](https://www.amazon.co.jp/dp/B01CRNV038/)
-    * FDM Type(熱溶解積層法)
-    * ノズル: ⌀0.4mm
+  * Printer: [Qidi Technology Dual Extruder Color 3D Printer / ABS / PLA 1.75mm デュアル押出/色](https://www.amazon.co.jp/dp/B01CRNV038/)
+    * FDM Type(Fused deposition modelling, 熱溶解積層法)
+    * Nozzle Diameter: ⌀0.4mm
     * Model: 3DF-QD-ABSYW
-  * Filament : **ABS** (プリンタ付属)
-  * Slicer Software: MakerWare 2.4.1.24 (プリンタ付属, 設定済み)
-  * Platform Sheet: [3M プラットフォームシート](https://www.amazon.co.jp/dp/B01M11XI4Y)
-
-      印刷中に台から離れないようにするために利用。
-  * 出力設定(後述)
+  * Filament : **ABS** (attached in the printer)
+  * Slicer Software: MakerWare 2.4.1.24 (attached in the SD card, configured)
+  * Platform Sheet: [3M platform Seat](https://www.amazon.co.jp/dp/B01M11XI4Y)
+  * Configurations(see below)
 * Software
   * CAD/CAM: **Autodesk Fusion360**
 
