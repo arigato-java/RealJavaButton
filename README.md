@@ -2,7 +2,7 @@
 
 JavaButton on the real world.
 
-**The goal of v2 is which provides an easy way to make RealJavaButton.**
+The goal of v2: **We provide an easy way to make RealJavaButton.**
 
 * 対象年齢: 全年齢 (審査申請準備中)
 
